@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+  font-family: 'Sacramento', cursive;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* =============Navbar Start============== */
+.border1{
+  /* height: 80px; */
+  width: 220px;
+  position: absolute;
+  top: 33px;
+  right: 390px;
+}
+.border2{
+  /* height: 80px; */
+  width: 220px;
+  position: absolute;
+  top: 33px;
+  left: 395px;
+}
+.navbar {
+  background-color: white;
+  height: 85px;
+  overflow-y: hidden;
+}
+
+.navbar li {
+  padding: 30px;
+  background-color: rgba(249, 187, 42, 0);
+  font-size: 32px;
+  position: relative;
+  top: -10px;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  overflow-x: hidden;
+}
+
+/* ===============Navbar End================= */
+.img1 {
+  background-image: url('../KS.jpg');
+  margin: -20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+
+/* =====================Our Story===================== */
+#table {
+  margin: 170px;
+  height: 260px;
+}
+
+.ks1 {
+  height: 350px;
+  border: 2px solid black;
+}
+
+.ks2 {
+  height: 350px;
+  border: 2px solid black;
+}
+
+.groom {
+  position: absolute;
+  left: 359px;
+  top: 1420px;
+  font-size: 32px;
+}
+
+.bride {
+  position: absolute;
+  left: 985px;
+  top: 1420px;
+  font-size: 32px;
+}
+
+.p1 {
+  position: absolute;
+  left: 270px;
+  top: 1490px;
+  font-size: 36px;
+  color: rgba(23, 140, 30, 0.737);
+}
+
+.story {
+  position: absolute;
+  top: 960px;
+  left: 569px;
+  font-size: 46px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(3, 24, 9, 0.799);
+}
+
+/* =================Our Story End===================*/
+
+/* ==============functions============== */
+#mehndi {
+  padding: 500px;
+
+}
+
+.function {
+  position: absolute;
+  top: 1230px;
+  left: -20px;
+  text-decoration: underline;
+  font-size: 55px;
+  font-weight: 900;
+  color: rgba(17, 57, 33, 0.799);
+  padding: 600px;
+}
+
+/* ===========Mehndi============ */
+.box1 {
+  width: 400px;
+  height: 480px;
+  border: 10px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 1980px;
+  left: 350px;
+}
+
+.box2 {
+  width: 400px;
+  height: 480px;
+  border: 5px solid rgb(160, 120, 17);
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 2090px;
+  left: 720px;
+  background-color: bisque;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.calendar {
+  position: absolute;
+  top: 2240px;
+  left: 770px;
+  font-size: 28px;
+}
+
+.map {
+  position: absolute;
+  top: 2405px;
+  left: 770px;
+  font-size: 28px;
+}
+
+/* =============Mehndi End============= */
+
+/* ==================Sangeet Start================= */
+#sangeet {
+  padding: 400px;
+}
+
+.box3 {
+  width: 390px;
+  height: 450px;
+  border: 10px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 2690px;
+  left: 720px;
+}
+
+.box4 {
+  width: 400px;
+  height: 450px;
+  border: 5px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 2810px;
+  left: 350px;
+  background-color: bisque;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.calendar1 {
+  position: absolute;
+  top: 2990px;
+  left: 420px;
+  font-size: 28px;
+}
+
+/* ====================haldi======================= */
+#haldi {
+  padding: 350px;
+}
+
+.box5 {
+  width: 400px;
+  height: 470px;
+  border: 5px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 3540px;
+  left: 720px;
+  background-color: bisque;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.box6 {
+  width: 400px;
+  height: 470px;
+  border: 10px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 3410px;
+  left: 350px;
+}
+
+.calendar2 {
+  position: absolute;
+  top: 3731px;
+  left: 770px;
+  font-size: 28px;
+}
+
+/* =================wedding start================== */
+
+#wedding {
+  padding: 350px;
+}
+
+.box7 {
+  width: 400px;
+  height: 470px;
+  border: 5px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 4230px;
+  left: 720px;
+}
+
+.box8 {
+  width: 400px;
+  height: 470px;
+  border: 10px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 4110px;
+  left: 350px;
+  background-color: bisque;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.calendar3 {
+  position: absolute;
+  top: 4306px;
+  left: 410px;
+  font-size: 28px;
+}
+
+/* ===================================Reception================================ */
+
+#reception {
+  padding: 350px;
+}
+
+.box10 {
+  width: 400px;
+  height: 480px;
+  border: 5px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 4930px;
+  left: 720px;
+  background-color: bisque;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.box9 {
+  width: 400px;
+  height: 480px;
+  border: 10px solid rgb(160, 120, 17);
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  top: 4810px;
+  left: 350px;
+}
+
+.calendar4 {
+  position: absolute;
+  top: 5109px;
+  left: 770px;
+  font-size: 28px;
+}
+
+.map2 {
+  position: absolute;
+  top: 5262px;
+  left: 770px;
+  font-size: 28px;
+}
+
+/* =======================gallary======================= */
+#gallary {
+  padding: 250px;
+}
+.galry{
+  font-size: 65px;
+  font-weight: 700;
+  color: rgba(49, 114, 63, 0.922);
+  position: relative;
+  top: 50px;
+  left: 30px;
+  text-decoration: underline;
+}
+.gallary2 {
+  height: 400px;
+  position: absolute;
+  top: 5602px;
+  left: 50px;
+
+}
+
+.gallary3 {
+  height: 400px;
+  position: absolute;
+  top: 5602px;
+}
+
+/* =====================rsvp start====================== */
+.RP{
+  font-size: 55px; 
+  font-weight: bold; 
+  position: relative;
+  top: 50px;
+  color:rgba(78, 97, 157, 0.973); 
+  text-decoration: underline;
+}
+#rsvp {
+ position: relative;
+ top: 20px;
+ left: 10px;
+ right: 10px;
+ background-image: url('../blank-blue-leafy-poster_53876-99945.avif');
+ /* background-size: cover;  */
+ /* background-repeat: no-repeat;  */
+}
+
+
+#n1 {
+  font-size: 28px;
+  font-weight: 700;
+  position: relative;
+  top: 70px;
+  padding: 0px 460px 0px 0px;
+}
+
+#n2 {
+  position: relative;
+  top: 70px;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0px 90px 0px 0px;
+
+}
+
+#n3 {
+  position: relative;
+  top: 70px;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0px 100px 0px 0px;
+}
+
+#n4 {
+  position: relative;
+  top: 70px;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 30px 460px 0px 0px;
+}
+
+.n5 {
+ 
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+/* ==============rsvp end============== */
